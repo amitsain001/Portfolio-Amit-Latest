@@ -159,7 +159,7 @@ function handleSubmit(event) {
   const email = document.getElementById("email").value;
   const message = document.getElementById("message").value;
 
-  const whatsappNumber = "9610841282"; // Your WhatsApp number
+  const whatsappNumber = "919610841282"; // Your WhatsApp number
 
   const whatsappMessage =
     `New Portfolio Contact
