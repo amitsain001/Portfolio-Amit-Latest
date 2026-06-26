@@ -63,8 +63,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 // ---------- Hero subtitle typing loop ----------
 const roles = [
+  '5 Projects Deployed • 100+ DSA Problems Solved 50-Day LeetCode Streak',
   'Building products end-to-end, frontend to infra.',
-  'React + Node, shipped with tests and CI.',
 ];
 const typeText = document.getElementById('typeText');
 let roleIdx = 0;
