@@ -5,7 +5,7 @@ const bootLines = [
   {o:true, t:'["react", "javascript", "node", "SQL", ...]'},
   {p:true, t:'./run --status'},
   {o:true, t:'> 3 production apps shipped'},
-  {o:true, t:'> open to senior full-stack roles'},
+  {o:true, t:'> open to full-stack roles'},
   {p:true, t:'echo $WELCOME'},
   {o:true, t:'Thanks for stopping by — scroll to see the work.'},
 ];
