@@ -63,7 +63,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 // ---------- Hero subtitle typing loop ----------
 const roles = [
-  '5 Projects Deployed • 100+ DSA Problems Solved 50-Day LeetCode Streak',
+  '5 Projects Deployed • 200+ DSA Problems Solved',
   'Building products end-to-end, frontend to infra.',
 ];
 const typeText = document.getElementById('typeText');
@@ -131,26 +131,6 @@ function updateActiveTab(){
 }
 window.addEventListener('scroll', updateActiveTab, {passive:true});
 updateActiveTab();
-
-// ---------- Contact form (front-end only demo) ----------
-// function handleSubmit(e){
-//   e.preventDefault();
-//   const btn = document.getElementById('submitBtn');
-//   const note = document.getElementById('formNote');
-//   const original = btn.textContent;
-//   btn.textContent = 'Sending…';
-//   btn.disabled = true;
-//   setTimeout(()=>{
-//     btn.textContent = 'Message sent ✓';
-//     note.textContent = '// wire this up to Formspree, Resend, or your backend of choice';
-//     setTimeout(()=>{
-//       btn.textContent = original;
-//       btn.disabled = false;
-//       e.target.reset();
-//     }, 2400);
-//   }, 900);
-//   return false;
-// }
 
 function handleSubmit(event) {
   event.preventDefault();
